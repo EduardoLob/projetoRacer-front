@@ -32,6 +32,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { ResultadosComponent } from './components/resultados/resultados.component';
 import { HeaderComponent } from './components/header/header.component';
+import { AdministradorListComponent } from './components/administrador/administrador-list/administrador-list.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { HeaderComponent } from './components/header/header.component';
     NavComponent,
     HomeComponent,
     ResultadosComponent,
-    HeaderComponent
+    HeaderComponent,
+    AdministradorListComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +66,7 @@ import { HeaderComponent } from './components/header/header.component';
     MatTableModule,
     MatIconModule,
     MatListModule,
-    MatCardModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
