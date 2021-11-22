@@ -31,13 +31,15 @@ import { MatCardModule } from '@angular/material/card';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { ResultadosComponent } from './components/resultados/resultados.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    ResultadosComponent
+    ResultadosComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
