@@ -34,6 +34,7 @@ import { ResultadosComponent } from './components/resultados/resultados.componen
 import { HeaderComponent } from './components/header/header.component';
 import { AdministradorListComponent } from './components/administrador/administrador-list/administrador-list.component';
 import { LoginComponent } from './components/login/login.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,12 @@ import { LoginComponent } from './components/login/login.component';
     MatTableModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    ToastrModule.forRoot({
+      timeOut: 3000,
+      closeButton: true,
+      progressBar: true
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
