@@ -6,7 +6,7 @@
 mat-form-field {
     width: 100%;
     background-color: white;
- }
+}
 
 table {
     width: 100%;
@@ -16,11 +16,19 @@ button {
     width: 100%;
     background-color: white;
     margin-bottom: 1rem;
- }
+}
  
  h1 {
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
     color: white;
- }
+}
+
+.editar{
+    color: rgb(19, 199, 19);
+}
+
+.deletar{
+    color: red;
+}
