@@ -30,7 +30,6 @@ import { MatCardModule } from '@angular/material/card';
 //Componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
-import { ResultadosComponent } from './components/resultados/resultados.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AdministradorListComponent } from './components/administrador/administrador-list/administrador-list.component';
 import { LoginComponent } from './components/login/login.component';
@@ -44,7 +43,6 @@ import { NgxMaskModule } from 'ngx-mask';
     AppComponent,
     NavComponent,
     HomeComponent,
-    ResultadosComponent,
     HeaderComponent,
     AdministradorListComponent,
     LoginComponent,

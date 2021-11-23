@@ -6,7 +6,6 @@ import { AdministradorListComponent } from './components/administrador/administr
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavComponent } from './components/nav/nav.component';
-import { ResultadosComponent } from './components/resultados/resultados.component';
 
 const routes: Routes = [
   {path: 'login', component:LoginComponent},
@@ -15,7 +14,6 @@ const routes: Routes = [
     {path: 'adm', component:AdministradorListComponent},
     {path: 'adm/create', component:AdministradorCreateComponent}
   ]},
-  {path: 'resultados', component:ResultadosComponent}
 ]; 
 
 @NgModule({
