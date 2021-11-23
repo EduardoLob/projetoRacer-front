@@ -22,7 +22,7 @@ export class NavComponent implements OnInit {
   logout(){
     this.router.navigate(['login']);
     this.authService.logout();
-    this.toast.info('Adeus, volte sempre', 'Logout realizado', {timeOut:6000}) 
+    this.toast.info('Volte sempre', 'Logout realizado', {timeOut:6000});
   }
 
 }
