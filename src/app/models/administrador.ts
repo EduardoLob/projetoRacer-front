@@ -1,9 +1,9 @@
 export interface Administrador{
     id?: any;
-    nome: String;
-    cpf: String;
-    email: String;
-    senha: String;
-    perfis: String[];
+    nome: string;
+    cpf: string;
+    email: string;
+    senha: string;
+    perfis: string[];
     dataCriacao: any;
 }
