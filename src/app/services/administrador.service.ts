@@ -14,4 +14,8 @@ export class AdministradorService {
   findAll(): Observable<Administrador[]> {
     return this.http.get<Administrador[]>(`${API_CONFIG.baseUrl}/adm`);
   }
+
+  create(administrador:Administrador): Observable<Administrador>{
+    return this.http.post<Administrador>(`${API_CONFIG.baseUrl}/adm`, administrador)
+  }
 }
