@@ -36,6 +36,7 @@ import { AdministradorListComponent } from './components/administrador/administr
 import { LoginComponent } from './components/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
 import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
+import { AdministradorCreateComponent } from './components/administrador/administrador-create/administrador-create.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
     ResultadosComponent,
     HeaderComponent,
     AdministradorListComponent,
-    LoginComponent
+    LoginComponent,
+    AdministradorCreateComponent
   ],
   imports: [
     BrowserModule,
