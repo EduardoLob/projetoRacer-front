@@ -38,6 +38,7 @@ import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
 import { AdministradorCreateComponent } from './components/administrador/administrador-create/administrador-create.component';
 import { NgxMaskModule } from 'ngx-mask';
 import { AdministradorUpdateComponent } from './components/administrador/administrador-update/administrador-update.component';
+import { AdministradorDeleteComponent } from './components/administrador/administrador-delete/administrador-delete.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { AdministradorUpdateComponent } from './components/administrador/adminis
     AdministradorListComponent,
     LoginComponent,
     AdministradorCreateComponent,
-    AdministradorUpdateComponent
+    AdministradorUpdateComponent,
+    AdministradorDeleteComponent
   ],
   imports: [
     BrowserModule,
