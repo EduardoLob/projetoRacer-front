@@ -11,11 +11,19 @@ export class AdministradorService {
 
   constructor(private http:HttpClient) { }
 
+  findById(id: any): Observable<Administrador> {
+    return this.http.get<Administrador>(`${API_CONFIG.baseUrl}/adm/${id}`);
+  }
+
   findAll(): Observable<Administrador[]> {
     return this.http.get<Administrador[]>(`${API_CONFIG.baseUrl}/adm`);
   }
 
   create(administrador:Administrador): Observable<Administrador>{
     return this.http.post<Administrador>(`${API_CONFIG.baseUrl}/adm`, administrador)
+  }
+
+  update(administrador: Administrador): Observable<Administrador> {
+    return this.http.put<Administrador>(`${API_CONFIG.baseUrl}/adm/${administrador.id}`, administrador);
   }
 }
