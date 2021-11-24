@@ -26,4 +26,8 @@ export class AdministradorService {
   update(administrador: Administrador): Observable<Administrador> {
     return this.http.put<Administrador>(`${API_CONFIG.baseUrl}/adm/${administrador.id}`, administrador);
   }
+
+  delete(id: any): Observable<Administrador>{
+    return this.http.delete<Administrador>(`${API_CONFIG.baseUrl}/adm/${id}`)
+  }
 }
