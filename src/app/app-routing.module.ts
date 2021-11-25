@@ -8,6 +8,10 @@ import { AdministradorUpdateComponent } from './components/administrador/adminis
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavComponent } from './components/nav/nav.component';
+import { UsuarioCreateComponent } from './components/usuario/usuario-create/usuario-create.component';
+import { UsuarioDeleteComponent } from './components/usuario/usuario-delete/usuario-delete.component';
+import { UsuarioListComponent } from './components/usuario/usuario-list/usuario-list.component';
+import { UsuarioUpdateComponent } from './components/usuario/usuario-update/usuario-update.component';
 
 const routes: Routes = [
   {path: 'login', component:LoginComponent},
@@ -16,7 +20,12 @@ const routes: Routes = [
     {path: 'adm', component:AdministradorListComponent},
     {path: 'adm/create', component:AdministradorCreateComponent},
     {path: 'adm/update/:id', component:AdministradorUpdateComponent},
-    {path: 'adm/delete/:id', component:AdministradorDeleteComponent}
+    {path: 'adm/delete/:id', component:AdministradorDeleteComponent},
+
+    {path: 'usuarios', component:UsuarioListComponent},
+    {path: 'usuarios/create', component:UsuarioCreateComponent},
+    {path: 'usuarios/update/:id', component:UsuarioUpdateComponent},
+    {path: 'usuarios/delete/:id', component:UsuarioDeleteComponent}
   ]},
 ]; 
 

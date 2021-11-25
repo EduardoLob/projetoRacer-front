@@ -39,6 +39,10 @@ import { AdministradorCreateComponent } from './components/administrador/adminis
 import { NgxMaskModule } from 'ngx-mask';
 import { AdministradorUpdateComponent } from './components/administrador/administrador-update/administrador-update.component';
 import { AdministradorDeleteComponent } from './components/administrador/administrador-delete/administrador-delete.component';
+import { UsuarioCreateComponent } from './components/usuario/usuario-create/usuario-create.component';
+import { UsuarioListComponent } from './components/usuario/usuario-list/usuario-list.component';
+import { UsuarioUpdateComponent } from './components/usuario/usuario-update/usuario-update.component';
+import { UsuarioDeleteComponent } from './components/usuario/usuario-delete/usuario-delete.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +54,11 @@ import { AdministradorDeleteComponent } from './components/administrador/adminis
     LoginComponent,
     AdministradorCreateComponent,
     AdministradorUpdateComponent,
-    AdministradorDeleteComponent
+    AdministradorDeleteComponent,
+    UsuarioCreateComponent,
+    UsuarioListComponent,
+    UsuarioUpdateComponent,
+    UsuarioDeleteComponent
   ],
   imports: [
     BrowserModule,

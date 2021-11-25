@@ -1,31 +1,31 @@
 <div class="container mat-elevation-z8">
     <form class="form">
-        <h1 class="fullWidth">Apagar Administrador</h1>
+        <h1 class="fullWidth">Apagar Usuario</h1>
         <img class="fullWidth"
             src="https://carroesporteclube.com.br/wp-content/uploads/2021/02/Formula-1-2021-Band-transmisao-1280x720.jpg"
             alt="">
 
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Nome</mat-label>
-            <input [(ngModel)]="administrador.nome" name="nome" [disabled]="true" matInput>
+            <input [(ngModel)]="usuario.nome" name="nome" [disabled]="true" matInput>
             <mat-icon matSuffix>drive_file_rename_outline</mat-icon>
         </mat-form-field>
 
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>CPF</mat-label>
-            <input [(ngModel)]="administrador.cpf" name="cpf" [disabled]="true" matInput>
+            <input [(ngModel)]="usuario.cpf" name="cpf" [disabled]="true" matInput>
             <mat-icon matSuffix>credit_card </mat-icon>
         </mat-form-field>
 
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>E-mail</mat-label>
-            <input [(ngModel)]="administrador.email" name="email" [disabled]="true" matInput>
+            <input [(ngModel)]="usuario.email" name="email" [disabled]="true" matInput>
             <mat-icon matSuffix>email</mat-icon>
         </mat-form-field>
 
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Senha</mat-label>
-            <input [(ngModel)]="administrador.senha" name="senha" type="password" [disabled]="true" matInput>
+            <input [(ngModel)]="usuario.senha" name="senha" type="password" [disabled]="true" matInput>
             <mat-icon matSuffix>vpn_key</mat-icon>
         </mat-form-field>
 
