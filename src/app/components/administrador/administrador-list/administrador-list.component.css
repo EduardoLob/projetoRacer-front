@@ -13,8 +13,8 @@ table {
 }
 
 button {
-    width: 100%;
-    background-color: white;
+    width: 15%;
+    background: rgba(40, 179, 13, 0.836);
     margin-bottom: 1rem;
 }
  
@@ -25,10 +25,8 @@ button {
     color: white;
 }
 
-.editar{
-    color: rgb(19, 199, 19);
-}
-
-.deletar{
-    color: red;
+.matBut{
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
 }

@@ -5,6 +5,8 @@ import { AdministradorCreateComponent } from './components/administrador/adminis
 import { AdministradorDeleteComponent } from './components/administrador/administrador-delete/administrador-delete.component';
 import { AdministradorListComponent } from './components/administrador/administrador-list/administrador-list.component';
 import { AdministradorUpdateComponent } from './components/administrador/administrador-update/administrador-update.component';
+import { CalendarioComponent } from './components/calendario/calendario.component';
+import { ClassificacaoComponent } from './components/classificacao/classificacao.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavComponent } from './components/nav/nav.component';
@@ -25,7 +27,10 @@ const routes: Routes = [
     {path: 'usuarios', component:UsuarioListComponent},
     {path: 'usuarios/create', component:UsuarioCreateComponent},
     {path: 'usuarios/update/:id', component:UsuarioUpdateComponent},
-    {path: 'usuarios/delete/:id', component:UsuarioDeleteComponent}
+    {path: 'usuarios/delete/:id', component:UsuarioDeleteComponent},
+
+    {path: 'classificacao', component: ClassificacaoComponent},
+    {path: 'calendario', component: CalendarioComponent}
   ]},
 ]; 
 

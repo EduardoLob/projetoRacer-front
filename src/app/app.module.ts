@@ -43,6 +43,8 @@ import { UsuarioCreateComponent } from './components/usuario/usuario-create/usua
 import { UsuarioListComponent } from './components/usuario/usuario-list/usuario-list.component';
 import { UsuarioUpdateComponent } from './components/usuario/usuario-update/usuario-update.component';
 import { UsuarioDeleteComponent } from './components/usuario/usuario-delete/usuario-delete.component';
+import { ClassificacaoComponent } from './components/classificacao/classificacao.component';
+import { CalendarioComponent } from './components/calendario/calendario.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +60,9 @@ import { UsuarioDeleteComponent } from './components/usuario/usuario-delete/usua
     UsuarioCreateComponent,
     UsuarioListComponent,
     UsuarioUpdateComponent,
-    UsuarioDeleteComponent
+    UsuarioDeleteComponent,
+    ClassificacaoComponent,
+    CalendarioComponent
   ],
   imports: [
     BrowserModule,
